@@ -4,7 +4,7 @@ $(document).ready(function () {
         console.log(JSON.parse(localStorage.getItem("array")))
         var array = localStorage.getItem("array");
         var arrays = JSON.parse(array);
-        var message = "<div class='card bg-light'>";
+        var message = "<div class='card  text-white bg-dark'>";
         for (var i = 0; i < arrays.length; i++) {
             var movie = arrays[i];
 
